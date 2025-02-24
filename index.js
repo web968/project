@@ -32,3 +32,28 @@ window.addEventListener("scroll", function() {
         },
     });
 });
+
+window.addEventListener('DOMContentLoaded', () => {
+  let leftSide = document.querySelector(".right"),
+      opener = document.querySelector(".opener"),
+      closer = document.querySelector(".closer"),
+      navs = document.querySelectorAll(".right ul");
+
+  opener.addEventListener("click", () => {
+      if (leftSide.style.transform = "translateY(-100%)") {
+          leftSide.style.transform = "translateY(0)";
+      }
+  })
+  closer.addEventListener("click", () => {
+      if (leftSide.style.transform = "translateY(0)") {
+          leftSide.style.transform = "translateY(100%)";
+      }
+  })
+  navs.forEach((nav) => {
+      nav.addEventListener("click", () => {
+          if (leftSide.style.transform = "translateY(0)") {
+              leftSide.style.transform = "translateY(100%)";
+          }
+      })
+  })
+})
