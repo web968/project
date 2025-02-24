@@ -186,7 +186,84 @@ a {
 background: linear-gradient(45deg, #FEDA75, #FA7E1E, #D62976, #962FBF, #4F5BD5);
 
 }
-
+@media screen and (max-width: 992px) {
+    #navbar .nav-content {
+        padding: 10px 0;
+    }
+    #navbar .logo h1 {
+        font-size: 25px;
+    }
+    #navbar .right ul {
+        margin: 0 0 10px 0;
+        padding-top: 5px;
+    }
+    #navbar .right ul li a {
+        font-size: 18px;
+    }
+    
+    /* Swiper konteyneri */
+    #header {
+        padding: 45px 0;
+    }
+    /* Museum */
+    #museum {
+        padding: 70px 0;
+    }
+    #city h1,
+    #museum h1 {
+        font-size: 35px;
+    }
+    #city p,
+    #museum p {
+        font-size: 18px;
+    }
+    #city img,
+    #museum img {
+        border-radius: 15px
+    }
+    /* Masque */
+    #masque {
+        padding: 70px 0;
+    }
+    #masque h1 {
+        font-size: 35px;
+    }
+    #masque p {
+        font-size: 18px;
+    }
+    #masque img {
+        border-radius: 15px
+    }
+    #city{
+        padding: 70px 0;
+    }
+    #park {
+        padding: 40px 0 60px 0;
+    }
+    #park .top{
+        padding-bottom: 0px;
+    }
+    #park h1 {
+        font-size: 35px;
+    }
+    #park p {
+        font-size: 18px;
+    }
+    #park img {
+        border-radius: 15px
+    }
+    #footer .footer-content{
+        padding: 30px 0 50px 0;
+    }
+    #footer .left ul{
+        padding: 0;
+        margin: 0;
+    }
+    #footer .right span,
+    #footer .left ul li a {
+        font-size: 18px;
+    }
+}
 
 
 
