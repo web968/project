@@ -22,7 +22,7 @@ a {
     /* height: 8vh; */
     position: fixed;
     z-index: 999;
-    background-color: aliceblue;
+    background-color: #FFFFFF;
 }
 
 #navbar .nav-content {
@@ -164,11 +164,14 @@ a {
     border-radius: 20px
 }
 #footer{
-    background-color: blueviolet;
+    background-color: #00204A;
+
+    /* background-color: blueviolet; */
 }
 #footer .footer-content{
     padding: 50px 0 100px 0;
 }
+#footer .right span,
 #footer .left ul li a {
     font-family: sans-serif;
     font-weight: 400;
