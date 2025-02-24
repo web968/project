@@ -1,0 +1,207 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none !important;
+}
+
+
+#navbar {
+    opacity: 0;
+    transform: translateY(-10px);
+    animation: fadeInDown 1s ease-in-out forwards;
+    top: 0;
+    width: 100%;
+    /* height: 8vh; */
+    position: fixed;
+    z-index: 999;
+    background-color: aliceblue;
+}
+
+#navbar .nav-content {
+    padding: 15px 0;
+}
+
+#navbar .logo h1 {
+    text-transform: uppercase;
+    font-family: sans-serif;
+    font-weight: 700;
+    font-size: 35px;
+    color: #00204A;
+}
+
+#navbar .right ul {
+    padding-top: 5px;
+}
+
+#navbar .right ul li a {
+    font-family: sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    color: #00204A;
+}
+
+/* Swiper konteyneri */
+#header {
+    padding: 80px 0;
+}
+#park .swiper,
+#masuqe .swiper,
+#city .swiper,
+#header .swiper {
+    opacity: 0;
+    transform: translateY(-30px);
+    animation: fadeInDown 1s ease-in-out forwards;
+    width: 100%;
+    height: 80vh;
+    /* Slayderni ekranning 80% qismi qilish */
+}
+
+/* Swiper slaydlari */
+#park .swiper-slide,
+#masuqe .swiper-slide,
+#city .swiper-slide,
+#header .swiper-slide {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+/* Rasmning o'lchamini moslash */
+#park .swiper-slide img,
+#masuqe .swiper-slide img,
+#city .swiper-slide img,
+#header .swiper-slide img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    /* Rasmni slayder maydoniga mos qilib kesish */
+    border-radius: 10px;
+    /* Rasm burchaklarini yumshatish (ixtiyoriy) */
+}
+
+/* Museum */
+#museum {
+    padding: 100px 0;
+}
+
+#city h1,
+#museum h1 {
+    font-family: sans-serif;
+    font-weight: 700;
+    font-size: 50px;
+    color: #00204A;
+}
+
+#city p,
+#museum p {
+    font-family: sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    color: #00204A;
+}
+
+#city img,
+#museum img {
+    border-radius: 20px
+}
+
+/* Masque */
+#masque {
+    padding: 100px 0;
+}
+
+#masque h1 {
+    font-family: sans-serif;
+    font-weight: 700;
+    font-size: 50px;
+    color: #00204A;
+}
+
+#masque p {
+    font-family: sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    color: #00204A;
+}
+
+#masque img {
+    border-radius: 20px
+}
+#city{
+    padding: 80px 0;
+}
+#park {
+    padding: 100px 0;
+}
+#park .top{
+    padding-bottom: 40px;
+}
+#park h1 {
+    font-family: sans-serif;
+    font-weight: 700;
+    font-size: 50px;
+    color: #00204A;
+}
+
+#park p {
+    font-family: sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    color: #00204A;
+}
+#park img {
+    border-radius: 20px
+}
+#footer{
+    background-color: blueviolet;
+}
+#footer .footer-content{
+    padding: 50px 0 100px 0;
+}
+#footer .left ul li a {
+    font-family: sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    color: #FFFFFF;
+}
+#footer .right a i:first-child{
+    padding: 0 10px;
+    color: #0088cc;
+}
+#footer .right a i:nth-child(2){
+background: linear-gradient(45deg, #FEDA75, #FA7E1E, #D62976, #962FBF, #4F5BD5);
+
+}
+
+
+
+
+
+
+
+
+@keyframes fadeInDown {
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* @keyframes bgChange {
+    0% { background: black; }
+    50% { background: #333; }
+    100% { background: black; }
+    }
+    
+    .navbar {
+        animation: bgChange 5s infinite alternate;
+  } */
