@@ -65,6 +65,7 @@ a {
 /* } */
 
 /* Swiper slaydlari */
+#header .swiper-slide,
 #park .swiper-slide,
 #masuqe .swiper-slide,
 #city .swiper-slide,
@@ -76,6 +77,7 @@ a {
 }
 
 /* Rasmning o'lchamini moslash */
+#header .swiper-slide img,
 #park .swiper-slide img,
 #masque .swiper-slide img,
 #city .swiper-slide img,
